@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 // services
-import { HeroService } from './services/hero.service';
+import { HeroService } from './hero.service';
 
 // components
-import { HeroesListComponent } from './components/heroes-list/heroes-list.component';
-import { HeroDetailsComponent } from './components/hero-details/hero-details.component';
-import { HeroSearchComponent } from './components/hero-search/hero-search.component';
+import { HeroesListComponent } from './heroes-list/heroes-list.component';
+import { HeroDetailsComponent } from './hero-details/hero-details.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 
 @NgModule({
